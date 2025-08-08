@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.env
+.venv/
+.ipynb_checkpoints/
+.DS_Store
+
+# Data
+data/interim/*
+data/*.parquet
+data/*.feather
+*.zip
+*.tar.gz
+
+# dbt artifacts (si decides no versionarlos)
+dbt/target/
+dbt/logs/
+
+# BI
+dashboards/powerbi/*.pbix
+dashboards/spotfire/*.dxp
+
+# VSCode / OS
+.vscode/
+Thumbs.db
+
+# Docker
+*.env.docker
+
+# Docs privados / no versionados
+not_tracking/
