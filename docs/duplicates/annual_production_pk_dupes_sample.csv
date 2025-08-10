@@ -1,0 +1,401 @@
+api_well_number,county,company_name,api_hole_number,sidetrack_code,completion_code,well_type_code,production_field,well_status_code,well_name,town,producing_formation,months_in_production,gas_produced_mcf,water_produced_bbl,oil_produced_bbl,reporting_year,new_georeferenced_column
+31013154510000,Chautauqua,"Samuelson, Philip A.",15451,00,00,OW,Ellery,NR,Samuelson Phil 1,Ellery,Bass Island,12,151.0,0.0,0.0,2012,"Ellery, NY
+(42.159868, -79.393216)"
+31003657260000,Allegany,Pine Oil Co.,65726,00,00,IW,Richburg,NR,Pine Oil 139,Genesee,Richburg,0,0.0,0.0,0.0,2012,"Genesee, NY
+(42.02693, -78.205893)"
+31013147700000,Chautauqua,"Eclipse Energy Company, LLC",14770,00,00,GD,Lakeshore,AC,Balling 3156,North Harmony,Medina,12,4481.0,96.0,0.0,2012,"North Harmony, NY
+(42.094296, -79.374999)"
+31009664140000,Cattaraugus,M. J. McCaffery Oil Co.,66414,00,00,OD,Chipmunk,NR,Hill 16,Carrollton,Chipmunk,1,0.0,5.0,5.0,2012,"Carrollton, NY
+(42.023289, -78.628438)"
+31121172950000,Wyoming,"Kingsley, Craig",17295,00,00,GD,Leicester,NR,"Kinsley, E 1",Covington,Medina,12,1.0,0.0,0.0,2012,"Covington, NY
+(42.853421, -78.010388)"
+31013220980000,Chautauqua,"James, Frederick H.",22098,00,00,GD,Lakeshore,SI,"James, F 1",Harmony,Medina,2,1.0,0.0,0.0,2012,"Harmony, NY
+(42.074924, -79.486378)"
+31009646800000,Cattaraugus,"Kellner, Christian F.",64680,00,00,OD,Bradford,NR,Utter Purchase 48,Allegany,Bradford,3,0.0,1.0,2.0,2012,"Allegany, NY
+(42.088061, -78.491258)"
+31009665850000,Cattaraugus,"Cramer, Carol A.",66585,00,00,OD,Chipmunk,SI,Sutter 4a (3),Allegany,Chipmunk,0,0.0,0.0,0.0,2012,"Allegany, NY
+(42.088061, -78.491258)"
+31003608110000,Allegany,James V. Joyce/DBA Pipeline Co.,60811,00,00,GD,Andover,NR,Livermore 8,Andover,Penny,0,0.0,0.0,0.0,2012,"Andover, NY
+(42.156405, -77.795231)"
+31009664110000,Cattaraugus,M. J. McCaffery Oil Co.,66411,00,00,OD,Chipmunk,NR,Hill 13,Carrollton,Chipmunk,1,0.0,5.0,5.0,2012,"Carrollton, NY
+(42.023289, -78.628438)"
+31013143460000,Chautauqua,"Eclipse Energy Company, LLC",14346,00,00,GD,Lakeshore,IN,Franks 3112,Westfield,Medina,12,0.0,0.0,0.0,2012,"Westfield, NY
+(42.324884, -79.573821)"
+31003656880000,Allegany,Pine Oil Co.,65688,00,00,OD,Richburg,NR,Pine Oil 33,Genesee,Richburg,0,0.0,0.0,0.0,2012,"Genesee, NY
+(42.02693, -78.205893)"
+31009669340000,Cattaraugus,"Campbell, Philip Brian",66934,00,00,OD,Bradford,PA,Dutka 4,Carrollton,Bradford,0,0.0,0.0,0.0,2012,"Carrollton, NY
+(42.023289, -78.628438)"
+31003558540000,Allegany,"Smith, Daniel E. Jr.",55854,00,00,OD,Clarksville,NR,Smith 003,Clarksville,,0,0.0,0.0,0.0,2012,"Clarksville, NY
+(42.575802, -73.964401)"
+31003657020000,Allegany,Pine Oil Co.,65702,00,00,IW,Richburg,NR,Pine Oil 115,Genesee,Richburg,0,0.0,0.0,0.0,2012,"Genesee, NY
+(42.02693, -78.205893)"
+31009666020000,Cattaraugus,"Cramer, Carol A.",66602,00,00,OD,Chipmunk,AC,Sutter 33,Allegany,Chipmunk,0,0.0,0.0,0.0,2012,"Allegany, NY
+(42.088061, -78.491258)"
+31013139580000,Chautauqua,"GH Graf Realty Corp., Inc.",13958,00,00,GD,Lakeshore,NR,Holy Cross 1,Dunkirk,Medina,0,0.0,0.0,0.0,2012,"Dunkirk, NY
+(42.481338, -79.333958)"
+31013137530000,Chautauqua,"Eclipse Energy Company, LLC",13753,00,00,GD,Lakeshore,AC,Bielat 1021,Dunkirk,Medina,12,1260.0,0.0,0.0,2012,"Dunkirk, NY
+(42.481338, -79.333958)"
+31009622140000,Cattaraugus,M. J. McCaffery Oil Co.,62214,00,00,OD,Chipmunk,NR,Roggenbaum 5,Carrollton,Chipmunk,0,0.0,0.0,0.0,2012,"Carrollton, NY
+(42.023289, -78.628438)"
+31009673440000,Cattaraugus,M. J. McCaffery Oil Co.,67344,00,00,OD,Chipmunk,NR,Sue 22,Carrollton,Chipmunk,0,0.0,0.0,0.0,2012,"Carrollton, NY
+(42.023289, -78.628438)"
+31009279640000,Cattaraugus,McKellpee Energy Corp.,27964,00,00,OD,Bradford,NR,DS 27-1,Olean,Bradford,1,0.0,13.0,0.0,2012,"Olean, NY
+(42.077495, -78.429849)"
+31029279440000,Erie,"Eclipse Energy Company, LLC",27944,00,00,GD,Concord,AC,Mikula 1,Concord,Medina,12,9533.0,315.0,0.0,2012,"Concord, NY
+(42.535259, -78.731387)"
+31003255200000,Allegany,Dorrett Oil Partners,25520,00,00,OD,Nile,NR,Dorrett M 1,Wirt,Richburg,0,0.0,0.0,0.0,2012,"Wirt, NY
+(42.137408, -78.150594)"
+31009639740000,Cattaraugus,"Peck, Horace G. Jr. & Ellen M.",63974,00,00,OD,Four Mile,NR,Lucco No 1-L,Allegany,Bradford Third,0,0.0,0.0,0.0,2012,"Allegany, NY
+(42.088061, -78.491258)"
+31009665930000,Cattaraugus,"Cramer, Carol A.",66593,00,00,OD,Chipmunk,AC,Sutter 24,Allegany,Chipmunk,9,0.0,50.0,18.0,2012,"Allegany, NY
+(42.088061, -78.491258)"
+31003657040000,Allegany,Pine Oil Co.,65704,00,00,IW,Richburg,NR,Pine Oil 117,Genesee,Richburg,0,0.0,0.0,0.0,2012,"Genesee, NY
+(42.02693, -78.205893)"
+31009279640000,Cattaraugus,McKellpee Energy Corp.,27964,00,00,OD,Bradford,NR,DS 27-1,Olean,Bradford,1,0.0,13.0,0.0,2012,"Olean, NY
+(42.077495, -78.429849)"
+31029193710000,Erie,"Eclipse Energy Company, LLC",19371,00,00,GD,Brant-Eden,AC,Hardcastle 1,Eden,Medina,12,1977.0,238.0,0.0,2012,"Eden, NY
+(42.652413, -78.896936)"
+31009560340000,Cattaraugus,Drillers LLC,56034,00,00,OD,Four Mile,NR,Stephan U6,Allegany,Bradford,0,0.0,0.0,0.0,2012,"Allegany, NY
+(42.088061, -78.491258)"
+31009665910000,Cattaraugus,"Cramer, Carol A.",66591,00,00,OD,Chipmunk,AC,Sutter 22,Allegany,Chipmunk,12,0.0,15.0,65.0,2012,"Allegany, NY
+(42.088061, -78.491258)"
+31009663990000,Cattaraugus,M. J. McCaffery Oil Co.,66399,00,00,OD,Chipmunk,NR,Hill 1,Carrollton,Chipmunk,10,0.0,5.0,20.0,2012,"Carrollton, NY
+(42.023289, -78.628438)"
+31009610520000,Cattaraugus,"Uhl, Robert",61052,00,00,OD,Four Mile,NR,Cook 7,Allegany,Bradford,0,0.0,0.0,0.0,2012,"Allegany, NY
+(42.088061, -78.491258)"
+31013114130000,Chautauqua,"Southwell, R.C.",11413,00,00,OD,Busti,NR,Peereboom 8,Busti,Glade,0,0.0,0.0,0.0,2012,"Busti, NY
+(42.038067, -79.283549)"
+31003657160000,Allegany,Pine Oil Co.,65716,00,00,IW,Richburg,NR,Pine Oil 129,Genesee,Richburg,0,0.0,0.0,0.0,2012,"Genesee, NY
+(42.02693, -78.205893)"
+31003656700000,Allegany,Pine Oil Co.,65670,00,00,OD,Richburg,NR,Pine Oil 15,Genesee,Richburg,6,0.0,16.0,4.0,2012,"Genesee, NY
+(42.02693, -78.205893)"
+31003656980000,Allegany,Pine Oil Co.,65698,00,00,IW,Richburg,NR,Pine Oil 111,Genesee,Richburg,0,0.0,0.0,0.0,2012,"Genesee, NY
+(42.02693, -78.205893)"
+31013154510000,Chautauqua,"Samuelson, Philip A.",15451,00,00,OW,Ellery,NR,Samuelson Phil 1,Ellery,Bass Island,12,151.0,0.0,0.0,2012,"Ellery, NY
+(42.159868, -79.393216)"
+31003608160000,Allegany,James V. Joyce/DBA Pipeline Co.,60816,00,00,GD,Andover,NR,Livermore 13,Andover,Penny,0,0.0,0.0,0.0,2012,"Andover, NY
+(42.156405, -77.795231)"
+31009191420000,Cattaraugus,McCaffery & Krampf Oil Co.,19142,00,00,OD,Chipmunk,NR,Horse Shoe 2,Carrollton,Chipmunk,8,0.0,50.0,305.0,2012,"Carrollton, NY
+(42.023289, -78.628438)"
+31003558520000,Allegany,"Smith, Daniel E. Jr.",55852,00,00,OD,Clarksville,NR,Smith 001,Clarksville,Richburg,0,0.0,0.0,0.0,2012,"Clarksville, NY
+(42.575802, -73.964401)"
+31003558530000,Allegany,"Smith, Daniel E. Jr.",55853,00,00,OD,Clarksville,NR,Smith 002,Clarksville,Richburg,1,0.0,0.0,12.0,2012,"Clarksville, NY
+(42.575802, -73.964401)"
+31009622130000,Cattaraugus,M. J. McCaffery Oil Co.,62213,00,00,OD,Chipmunk,NR,Roggenbaum 4,Carrollton,Chipmunk,0,0.0,0.0,0.0,2012,"Carrollton, NY
+(42.023289, -78.628438)"
+31009691010000,Cattaraugus,Hidden Heart Stables LLC,69101,00,00,OD,Four Mile,NR,Carls 11,Allegany,Bradford,0,0.0,0.0,0.0,2012,"Allegany, NY
+(42.088061, -78.491258)"
+31009560320000,Cattaraugus,Drillers LLC,56032,00,00,OD,Four Mile,PA,Stephan U4,Allegany,Bradford,0,0.0,0.0,0.0,2012,"Allegany, NY
+(42.088061, -78.491258)"
+31009096300000,Cattaraugus,United Resources Corporation,09630,00,00,OD,Five Mile,NR,Bryer-Kinley 19,Allegany,Bradford,2,0.0,1.0,6.0,2012,"Allegany, NY
+(42.088061, -78.491258)"
+31013143420000,Chautauqua,"Eclipse Energy Company, LLC",14342,00,00,GD,Lakeshore,IN,Warnshuis 3108,Westfield,Medina,12,0.0,0.0,0.0,2012,"Westfield, NY
+(42.324884, -79.573821)"
+31003558540000,Allegany,"Smith, Daniel E. Jr.",55854,00,00,OD,Clarksville,NR,Smith 003,Clarksville,,0,0.0,0.0,0.0,2012,"Clarksville, NY
+(42.575802, -73.964401)"
+31003657270000,Allegany,Pine Oil Co.,65727,00,00,IW,Richburg,NR,Pine Oil 140,Genesee,Richburg,0,0.0,0.0,0.0,2012,"Genesee, NY
+(42.02693, -78.205893)"
+31009279170000,Cattaraugus,McKellpee Energy Corp.,27917,00,00,OD,Bradford,TA,Schlosser 1-1,Olean,"Chipmunk, Bradford 1st,2nd,3rd",1,0.0,2.0,25.0,2012,"Olean, NY
+(42.077495, -78.429849)"
+31003209110000,Allegany,"Karcher, Walter Estate",20911,00,00,GD,Rushford,NR,Karcher 1,Centerville,Upper Devonian,0,0.0,0.0,0.0,2012,"Centerville, NY
+(42.480141, -78.249466)"
+31003608040000,Allegany,James V. Joyce/DBA Pipeline Co.,60804,00,00,GD,Andover,NR,Livermore 1,Andover,Penny,0,0.0,0.0,0.0,2012,"Andover, NY
+(42.156405, -77.795231)"
+31009192390000,Cattaraugus,"White, Walter & Christina",19239,00,00,OD,Chipmunk,NR,White 1,Carrollton,Chipmunk,12,0.0,0.0,11.0,2012,"Carrollton, NY
+(42.023289, -78.628438)"
+31121033570000,Wyoming,"George, Cheryl E.",03357,00,00,GD,Danley Corners,NR,Zeigler 578,Bennington,Medina,0,0.0,0.0,0.0,2012,"Bennington, NY
+(42.837023, -78.397809)"
+31029190000000,Erie,"Eclipse Energy Company, LLC",19000,00,00,GD,North Collins,AC,Ptak 1,North Collins,Medina,12,0.0,0.0,0.0,2012,"North Collins, NY
+(42.595159, -78.940951)"
+31009673460000,Cattaraugus,M. J. McCaffery Oil Co.,67346,00,00,OD,Chipmunk,NR,Sue 24,Carrollton,Chipmunk,0,0.0,0.0,0.0,2012,"Carrollton, NY
+(42.023289, -78.628438)"
+31029134360000,Erie,"Francis, David",13436,00,00,OW,North Collins,NR,Jensen  1 IGC 1157,Collins,Akron,0,0.0,0.0,0.0,2012,"Collins, NY
+(42.496522, -78.914064)"
+31013276910000,Chautauqua,"Eclipse Energy Company, LLC",27691,00,00,GD,Lakeshore,IN,Opeil 3,Sheridan,Medina,12,7828.0,45.0,0.0,2012,"Sheridan, NY
+(42.485764, -79.241801)"
+31003560730000,Allegany,"Smith, Daniel E. Jr.",56073,00,00,OD,Clarksville,NR,Smith 007,Clarksville,Richburg,0,0.0,0.0,0.0,2012,"Clarksville, NY
+(42.575802, -73.964401)"
+31009665960000,Cattaraugus,"Cramer, Carol A.",66596,00,00,OD,Chipmunk,AC,Sutter 27,Allegany,Chipmunk,11,0.0,58.0,25.0,2012,"Allegany, NY
+(42.088061, -78.491258)"
+31009622180000,Cattaraugus,M. J. McCaffery Oil Co.,62218,00,00,OD,Chipmunk,NR,Roggenbaum 9,Carrollton,Chipmunk,0,0.0,0.0,0.0,2012,"Carrollton, NY
+(42.023289, -78.628438)"
+31009517810000,Cattaraugus,"Cramer, Carol A.",51781,00,00,OD,Chipmunk,SI,Sutter 11,Allegany,,0,0.0,0.0,0.0,2012,"Allegany, NY
+(42.088061, -78.491258)"
+31003609490000,Allegany,Estate of Richard E. Howard,60949,00,00,OD,Richburg,NR,Almy 8,Wirt,Richburg,0,0.0,0.0,0.0,2012,"Wirt, NY
+(42.137408, -78.150594)"
+31003609420000,Allegany,Estate of Richard E. Howard,60942,00,00,OD,Richburg,SI,Almy 1,Wirt,Richburg,0,0.0,0.0,0.0,2012,"Wirt, NY
+(42.137408, -78.150594)"
+31029197470000,Erie,"Eclipse Energy Company, LLC",19747,00,00,GD,North Collins,AC,Mammoser 8,North Collins,Medina,12,0.0,0.0,0.0,2012,"North Collins, NY
+(42.595159, -78.940951)"
+31009646700000,Cattaraugus,"Kellner, Christian F.",64670,00,00,OD,Bradford,NR,Utter Purchase 38,Allegany,Bradford,3,0.0,0.0,2.0,2012,"Allegany, NY
+(42.088061, -78.491258)"
+31003656810000,Allegany,Pine Oil Co.,65681,00,00,OD,Richburg,NR,Pine Oil 26,Genesee,Richburg,0,0.0,0.0,0.0,2012,"Genesee, NY
+(42.02693, -78.205893)"
+31003663270000,Allegany,Betsy Bug Ltd.,66327,00,00,OD,Richburg,AC,Bucher 5,Bolivar,Richburg,5,0.0,100.0,12.0,2012,"Bolivar, NY
+(42.066701, -78.167667)"
+31003609470000,Allegany,Estate of Richard E. Howard,60947,00,00,OD,Richburg,NR,Almy 6,Wirt,Richburg,4,0.0,24.0,73.0,2012,"Wirt, NY
+(42.137408, -78.150594)"
+31003558530000,Allegany,"Smith, Daniel E. Jr.",55853,00,00,OD,Clarksville,NR,Smith 002,Clarksville,Richburg,1,0.0,0.0,12.0,2012,"Clarksville, NY
+(42.575802, -73.964401)"
+31003657150000,Allegany,Pine Oil Co.,65715,00,00,IW,Richburg,NR,Pine Oil 128,Genesee,Richburg,0,0.0,0.0,0.0,2012,"Genesee, NY
+(42.02693, -78.205893)"
+31009691020000,Cattaraugus,Hidden Heart Stables LLC,69102,00,00,OD,Four Mile,NR,Carls 12,Allegany,Bradford,0,0.0,0.0,0.0,2012,"Allegany, NY
+(42.088061, -78.491258)"
+31003663260000,Allegany,Betsy Bug Ltd.,66326,00,00,OD,Richburg,AC,Bucher 2b,Bolivar,Richburg,5,0.0,100.0,8.0,2012,"Bolivar, NY
+(42.066701, -78.167667)"
+31009104440000,Cattaraugus,United Resources Corporation,10444,00,00,OD,Five Mile,NR,Bryer-Kinley 26,Allegany,Bradford,9,0.0,3.0,48.0,2012,"Allegany, NY
+(42.088061, -78.491258)"
+31009096300000,Cattaraugus,United Resources Corporation,09630,00,00,OD,Five Mile,NR,Bryer-Kinley 19,Allegany,Bradford,2,0.0,1.0,6.0,2012,"Allegany, NY
+(42.088061, -78.491258)"
+31003657010000,Allegany,Pine Oil Co.,65701,00,00,IW,Richburg,NR,Pine Oil 114,Genesee,Richburg,0,0.0,0.0,0.0,2012,"Genesee, NY
+(42.02693, -78.205893)"
+31029193680000,Erie,"Eclipse Energy Company, LLC",19368,00,00,GD,Brant-Eden,AC,Benker 1,Eden,Medina,12,481.0,0.0,0.0,2012,"Eden, NY
+(42.652413, -78.896936)"
+31009622200000,Cattaraugus,M. J. McCaffery Oil Co.,62220,00,00,OD,Chipmunk,NR,Roggenbaum 11,Carrollton,Chipmunk,6,0.0,5.0,35.0,2012,"Carrollton, NY
+(42.023289, -78.628438)"
+31003656910000,Allegany,Pine Oil Co.,65691,00,00,IW,Richburg,NR,Pine Oil 104,Genesee,Richburg,0,0.0,0.0,0.0,2012,"Genesee, NY
+(42.02693, -78.205893)"
+31009666010000,Cattaraugus,"Cramer, Carol A.",66601,00,00,OD,Chipmunk,AC,Sutter 32,Allegany,Chipmunk,11,0.0,58.0,29.0,2012,"Allegany, NY
+(42.088061, -78.491258)"
+31009279770100,Cattaraugus,Drillers LLC,27977,01,00,NL,Bradford,DG,Williams & Stephan Pad 1HA,Allegany,,0,0.0,0.0,0.0,2012,"Allegany, NY
+(42.088061, -78.491258)"
+31013176140000,Chautauqua,"Wallace, Scott",17614,00,00,GD,Lakeshore,NR,"Wallace, M 1",French Creek,Medina,12,1.0,0.0,0.0,2012,"French Creek, NY
+(42.053599, -79.703602)"
+31013142780000,Chautauqua,"Southwell, R.C.",14278,00,00,OD,Busti,NR,Peereboom 15,Busti,Glade,0,0.0,0.0,0.0,2012,"Busti, NY
+(42.038067, -79.283549)"
+31009665850000,Cattaraugus,"Cramer, Carol A.",66585,00,00,OD,Chipmunk,SI,Sutter 4a (3),Allegany,Chipmunk,0,0.0,0.0,0.0,2012,"Allegany, NY
+(42.088061, -78.491258)"
+31003656620000,Allegany,Pine Oil Co.,65662,00,00,OD,Richburg,NR,Pine Oil 7,Genesee,Richburg,6,0.0,16.0,4.0,2012,"Genesee, NY
+(42.02693, -78.205893)"
+31009646640000,Cattaraugus,"Kellner, Christian F.",64664,00,00,OD,Bradford,NR,Utter Purchase 32,Allegany,Bradford,3,0.0,1.0,7.0,2012,"Allegany, NY
+(42.088061, -78.491258)"
+31003608170000,Allegany,James V. Joyce/DBA Pipeline Co.,60817,00,00,GD,Andover,NR,Livermore 14,Andover,Penny,0,0.0,0.0,0.0,2012,"Andover, NY
+(42.156405, -77.795231)"
+31003657190000,Allegany,Pine Oil Co.,65719,00,00,IW,Richburg,NR,Pine Oil 132,Genesee,Richburg,0,0.0,0.0,0.0,2012,"Genesee, NY
+(42.02693, -78.205893)"
+31009665920000,Cattaraugus,"Cramer, Carol A.",66592,00,00,OD,Chipmunk,AC,Sutter 23,Allegany,Chipmunk,9,0.0,43.0,25.0,2012,"Allegany, NY
+(42.088061, -78.491258)"
+31009666020000,Cattaraugus,"Cramer, Carol A.",66602,00,00,OD,Chipmunk,AC,Sutter 33,Allegany,Chipmunk,0,0.0,0.0,0.0,2012,"Allegany, NY
+(42.088061, -78.491258)"
+31009622260000,Cattaraugus,M. J. McCaffery Oil Co.,62226,00,00,OD,Chipmunk,NR,Roggenbaum 17,Carrollton,Chipmunk,0,0.0,0.0,0.0,2012,"Carrollton, NY
+(42.023289, -78.628438)"
+31003656730000,Allegany,Pine Oil Co.,65673,00,00,OD,Richburg,NR,Pine Oil 18,Genesee,Richburg,0,0.0,0.0,0.0,2012,"Genesee, NY
+(42.02693, -78.205893)"
+31051174280000,Livingston,"Jurs, Bernard G. Jr.",17428,00,00,GD,Uhley Corners-Caledonia,NR,Fee 1,York,Medina,12,1.0,0.0,0.0,2012,"York, NY
+(42.871099, -77.885584)"
+31029134910000,Erie,"Francis, David",13491,00,00,GD,North Collins,NR,Jensen 2 IGC 1159,Collins,Akron,12,1.0,0.0,0.0,2012,"Collins, NY
+(42.496522, -78.914064)"
+31003657030000,Allegany,Pine Oil Co.,65703,00,00,IW,Richburg,NR,Pine Oil 116,Genesee,Richburg,0,0.0,0.0,0.0,2012,"Genesee, NY
+(42.02693, -78.205893)"
+31009646710000,Cattaraugus,"Kellner, Christian F.",64671,00,00,OD,Bradford,NR,Utter Purchase 39,Allegany,Bradford,3,0.0,0.0,1.0,2012,"Allegany, NY
+(42.088061, -78.491258)"
+31013067320000,Chautauqua,"Southwell, R.C.",06732,00,00,OD,Busti,NR,"Peereboom,Pierre 6",Busti,Glade,0,0.0,0.0,0.0,2012,"Busti, NY
+(42.038067, -79.283549)"
+31029029600000,Erie,"Garman, Richard E.",02960,00,00,GD,East Aurora,NR,Souzzi Dan Old Clements E,Aurora,Medina,12,1.0,0.0,0.0,2012,"Aurora, NY
+(42.753982, -76.70241)"
+31013168010000,Chautauqua,"Eclipse Energy Company, LLC",16801,00,00,GD,Lakeshore,IN,Stebbins 2 Ee6,Sheridan,Medina,12,0.0,0.0,0.0,2012,"Sheridan, NY
+(42.485764, -79.241801)"
+31003657200000,Allegany,Pine Oil Co.,65720,00,00,IW,Richburg,NR,Pine Oil 133,Genesee,Richburg,0,0.0,0.0,0.0,2012,"Genesee, NY
+(42.02693, -78.205893)"
+31003609480000,Allegany,Estate of Richard E. Howard,60948,00,00,OD,Richburg,NR,Almy 7,Wirt,Richburg,0,0.0,0.0,0.0,2012,"Wirt, NY
+(42.137408, -78.150594)"
+31009664020000,Cattaraugus,M. J. McCaffery Oil Co.,66402,00,00,OD,Chipmunk,NR,Hill 4,Carrollton,Chipmunk,0,0.0,0.0,0.0,2012,"Carrollton, NY
+(42.023289, -78.628438)"
+31009691050000,Cattaraugus,Hidden Heart Stables LLC,69105,00,00,OD,Four Mile,NR,Carls 15,Allegany,Bradford,0,0.0,0.0,0.0,2012,"Allegany, NY
+(42.088061, -78.491258)"
+31003608090000,Allegany,James V. Joyce/DBA Pipeline Co.,60809,00,00,GD,Andover,NR,Livermore 6,Andover,Penny,0,0.0,0.0,0.0,2012,"Andover, NY
+(42.156405, -77.795231)"
+31009646790000,Cattaraugus,"Kellner, Christian F.",64679,00,00,OD,Bradford,NR,Utter Purchase 47,Allegany,Bradford,3,0.0,1.0,1.0,2012,"Allegany, NY
+(42.088061, -78.491258)"
+31009622240000,Cattaraugus,M. J. McCaffery Oil Co.,62224,00,00,OD,Chipmunk,NR,Roggenbaum 15,Carrollton,Chipmunk,0,0.0,0.0,0.0,2012,"Carrollton, NY
+(42.023289, -78.628438)"
+31009075260000,Cattaraugus,United Resources Corporation,07526,00,00,OD,Five Mile,NR,Bryer-Kinley 29,Allegany,Bradford,9,0.0,2.0,38.0,2012,"Allegany, NY
+(42.088061, -78.491258)"
+31009191290000,Cattaraugus,M. J. McCaffery Oil Co.,19129,00,00,OD,Chipmunk,NR,Hill Lease 2,Carrollton,Chipmunk,8,0.0,10.0,250.0,2012,"Carrollton, NY
+(42.023289, -78.628438)"
+31009673490000,Cattaraugus,M. J. McCaffery Oil Co.,67349,00,00,OD,Chipmunk,NR,Sue 41,Carrollton,Chipmunk,0,0.0,0.0,0.0,2012,"Carrollton, NY
+(42.023289, -78.628438)"
+31009690910000,Cattaraugus,Hidden Heart Stables LLC,69091,00,00,OD,Four Mile,NR,Carls 1,Allegany,Bradford,0,0.0,0.0,0.0,2012,"Allegany, NY
+(42.088061, -78.491258)"
+31003558520000,Allegany,"Smith, Daniel E. Jr.",55852,00,00,OD,Clarksville,NR,Smith 001,Clarksville,Richburg,0,0.0,0.0,0.0,2012,"Clarksville, NY
+(42.575802, -73.964401)"
+31013143620000,Chautauqua,"Babo, Donald G.",14362,00,00,GD,Lakeshore,NR,"Babo,D 1",Ripley,Medina,12,1.0,0.0,0.0,2012,"Ripley, NY
+(42.266859, -79.710476)"
+31003280180000,Allegany,"Allegany Energy, Inc.",28018,00,00,OD,Richburg,AC,Allegany Energy H-1,Alma,Richburg,0,0.0,0.0,0.0,2012,"Alma, NY
+(42.012207, -78.060759)"
+31009673470000,Cattaraugus,M. J. McCaffery Oil Co.,67347,00,00,OD,Chipmunk,NR,Sue 25,Carrollton,Chipmunk,0,0.0,0.0,0.0,2012,"Carrollton, NY
+(42.023289, -78.628438)"
+31029187950000,Erie,"Eclipse Energy Company, LLC",18795,00,00,GD,Brant-Eden,AC,Mammoser 5 Ed7,Eden,Medina,12,259.0,0.0,0.0,2012,"Eden, NY
+(42.652413, -78.896936)"
+31003656710000,Allegany,Pine Oil Co.,65671,00,00,OD,Richburg,NR,Pine Oil 16,Genesee,Richburg,0,0.0,0.0,0.0,2012,"Genesee, NY
+(42.02693, -78.205893)"
+31009646760000,Cattaraugus,"Kellner, Christian F.",64676,00,00,OD,Bradford,NR,Utter Purchase 44,Allegany,Bradford,3,0.0,0.0,1.0,2012,"Allegany, NY
+(42.088061, -78.491258)"
+31009669370000,Cattaraugus,"Campbell, Philip Brian",66937,00,00,OD,Bradford,PA,Dutka 7,Carrollton,Bradford,0,0.0,0.0,0.0,2012,"Carrollton, NY
+(42.023289, -78.628438)"
+31003656680000,Allegany,Pine Oil Co.,65668,00,00,OD,Richburg,NR,Pine Oil 13,Genesee,Richburg,0,0.0,0.0,0.0,2012,"Genesee, NY
+(42.02693, -78.205893)"
+31011155290000,Cayuga,Wells College,15529,00,00,GW,Wells College,NR,Wells College 1,Ledyard,Queenston,12,1.0,0.0,0.0,2012,"Ledyard, NY
+(42.695135, -76.621656)"
+31013168010000,Chautauqua,"Eclipse Energy Company, LLC",16801,00,00,GD,Lakeshore,IN,Stebbins 2 Ee6,Sheridan,Medina,12,0.0,0.0,0.0,2012,"Sheridan, NY
+(42.485764, -79.241801)"
+31009088770000,Cattaraugus,United Resources Corporation,08877,00,00,OD,Five Mile,NR,Bryer-Kinley 1,Allegany,Bradford,9,0.0,2.0,50.0,2012,"Allegany, NY
+(42.088061, -78.491258)"
+31003657090000,Allegany,Pine Oil Co.,65709,00,00,IW,Richburg,NR,Pine Oil 122,Genesee,Richburg,0,0.0,0.0,0.0,2012,"Genesee, NY
+(42.02693, -78.205893)"
+31009664030000,Cattaraugus,M. J. McCaffery Oil Co.,66403,00,00,OD,Chipmunk,NR,Hill 5,Carrollton,Chipmunk,0,0.0,0.0,0.0,2012,"Carrollton, NY
+(42.023289, -78.628438)"
+31013066620000,Chautauqua,"Southwell, R.C.",06662,00,00,OD,Busti,NR,Peerboom 3,Busti,Glade,0,0.0,0.0,0.0,2012,"Busti, NY
+(42.038067, -79.283549)"
+31003668560000,Allegany,"Christina Resources, Inc.",66856,00,00,OD,Fulmer Valley,NR,Lynch 2,Andover,Penny,0,0.0,0.0,0.0,2012,"Andover, NY
+(42.156405, -77.795231)"
+31037115450000,Genesee,"Johnson, Mary C.",11545,00,00,GD,Indian Falls,NR,Johnson 1,Batavia,Medina,12,1.0,0.0,0.0,2012,"Batavia, NY
+(42.99691, -78.186028)"
+31009610540000,Cattaraugus,"Uhl, Robert",61054,00,00,OD,Four Mile,NR,Cook 9,Allegany,Bradford,4,0.0,1.0,11.0,2012,"Allegany, NY
+(42.088061, -78.491258)"
+31003657200000,Allegany,Pine Oil Co.,65720,00,00,IW,Richburg,NR,Pine Oil 133,Genesee,Richburg,0,0.0,0.0,0.0,2012,"Genesee, NY
+(42.02693, -78.205893)"
+31009096320000,Cattaraugus,United Resources Corporation,09632,00,00,OD,Five Mile,NR,Bryer-Kinley 21,Allegany,Bradford,1,0.0,1.0,4.0,2012,"Allegany, NY
+(42.088061, -78.491258)"
+31009096290000,Cattaraugus,United Resources Corporation,09629,00,00,OD,Five Mile,NR,Bryer-Kinley 18,Allegany,Bradford,9,0.0,1.0,30.0,2012,"Allegany, NY
+(42.088061, -78.491258)"
+31009669360000,Cattaraugus,"Campbell, Philip Brian",66936,00,00,OD,Bradford,PA,Dutka 6,Carrollton,Bradford,0,0.0,0.0,0.0,2012,"Carrollton, NY
+(42.023289, -78.628438)"
+31009077400000,Cattaraugus,United Resources Corporation,07740,00,00,OD,Five Mile,NR,Bryer-Kinley 33,Allegany,Bradford,9,0.0,3.0,24.0,2012,"Allegany, NY
+(42.088061, -78.491258)"
+31003656920000,Allegany,Pine Oil Co.,65692,00,00,IW,Richburg,NR,Pine Oil 105,Genesee,Richburg,0,0.0,0.0,0.0,2012,"Genesee, NY
+(42.02693, -78.205893)"
+31009193620000,Cattaraugus,M. J. McCaffery Oil Co.,19362,00,00,OD,Chipmunk,NR,Hill Lease 4,Carrollton,Chipmunk,10,0.0,10.0,300.0,2012,"Carrollton, NY
+(42.023289, -78.628438)"
+31009560330000,Cattaraugus,Drillers LLC,56033,00,00,OD,Four Mile,NR,Stephan U5,Allegany,Bradford,0,0.0,0.0,0.0,2012,"Allegany, NY
+(42.088061, -78.491258)"
+31009191300000,Cattaraugus,M. J. McCaffery Oil Co.,19130,00,00,OD,Chipmunk,NR,Hill Lease 1,Carrollton,Chipmunk,7,0.0,10.0,300.0,2012,"Carrollton, NY
+(42.023289, -78.628438)"
+31029134910000,Erie,"Francis, David",13491,00,00,GD,North Collins,NR,Jensen 2 IGC 1159,Collins,Akron,12,1.0,0.0,0.0,2012,"Collins, NY
+(42.496522, -78.914064)"
+31003657250000,Allegany,Pine Oil Co.,65725,00,00,IW,Richburg,NR,Pine Oil 138,Genesee,Richburg,0,0.0,0.0,0.0,2012,"Genesee, NY
+(42.02693, -78.205893)"
+31009646680000,Cattaraugus,"Kellner, Christian F.",64668,00,00,OD,Bradford,NR,Utter Purchase 36,Allegany,Bradford,3,0.0,0.0,4.0,2012,"Allegany, NY
+(42.088061, -78.491258)"
+31003656830000,Allegany,Pine Oil Co.,65683,00,00,OD,Richburg,NR,Pine Oil 28,Genesee,Richburg,6,0.0,16.0,4.0,2012,"Genesee, NY
+(42.02693, -78.205893)"
+31037103870000,Genesee,Cone Brothers,10387,00,00,GE,Roanoke,NR,Cone 1,Stafford,Medina,12,235.0,0.0,0.0,2012,"Stafford, NY
+(42.981656, -78.073476)"
+31003609540000,Allegany,Estate of Richard E. Howard,60954,00,00,OD,Richburg,NR,Wightman 13,Wirt,Richburg,0,0.0,0.0,0.0,2012,"Wirt, NY
+(42.137408, -78.150594)"
+31013160670000,Chautauqua,"Gerry Homes, Inc., The",16067,00,00,GD,Lakeshore,NR,Barmore 1,Gerry,Medina,5,163.0,0.0,0.0,2012,"Gerry, NY
+(42.194749, -79.250394)"
+31009666010000,Cattaraugus,"Cramer, Carol A.",66601,00,00,OD,Chipmunk,AC,Sutter 32,Allegany,Chipmunk,11,0.0,58.0,29.0,2012,"Allegany, NY
+(42.088061, -78.491258)"
+31013245110000,Chautauqua,"Eclipse Energy Company, LLC",24511,00,00,GD,Lakeshore,AC,Bell 1,Mina,Medina,12,2628.0,100.0,0.0,2012,"Mina, NY
+(42.130114, -79.694407)"
+31003656820000,Allegany,Pine Oil Co.,65682,00,00,OD,Richburg,NR,Pine Oil 27,Genesee,Richburg,0,0.0,0.0,0.0,2012,"Genesee, NY
+(42.02693, -78.205893)"
+31003657130000,Allegany,Pine Oil Co.,65713,00,00,IW,Richburg,NR,Pine Oil 126,Genesee,Richburg,0,0.0,0.0,0.0,2012,"Genesee, NY
+(42.02693, -78.205893)"
+31013067320000,Chautauqua,"Southwell, R.C.",06732,00,00,OD,Busti,NR,"Peereboom,Pierre 6",Busti,Glade,0,0.0,0.0,0.0,2012,"Busti, NY
+(42.038067, -79.283549)"
+31009665970000,Cattaraugus,"Cramer, Carol A.",66597,00,00,OD,Chipmunk,AC,Sutter 28,Allegany,Chipmunk,0,0.0,0.0,0.0,2012,"Allegany, NY
+(42.088061, -78.491258)"
+31003608100000,Allegany,James V. Joyce/DBA Pipeline Co.,60810,00,00,GD,Andover,NR,Livermore 7,Andover,Penny,0,0.0,0.0,0.0,2012,"Andover, NY
+(42.156405, -77.795231)"
+31003609500000,Allegany,Estate of Richard E. Howard,60950,00,00,OD,Richburg,NR,Almy 9,Wirt,Richburg,0,0.0,0.0,0.0,2012,"Wirt, NY
+(42.137408, -78.150594)"
+31009691040000,Cattaraugus,Hidden Heart Stables LLC,69104,00,00,OD,Four Mile,NR,Carls 14,Allegany,Bradford,0,0.0,0.0,0.0,2012,"Allegany, NY
+(42.088061, -78.491258)"
+31009212280000,Cattaraugus,Pioneer Central School District,21228,00,00,GD,Chaffee-Arcade,NR,Pioneer Cent.Sch.Dist.1,Yorkshire,Medina,12,5736.0,0.0,0.0,2012,"Yorkshire, NY
+(42.530173, -78.472591)"
+31003609480000,Allegany,Estate of Richard E. Howard,60948,00,00,OD,Richburg,NR,Almy 7,Wirt,Richburg,0,0.0,0.0,0.0,2012,"Wirt, NY
+(42.137408, -78.150594)"
+31009072700000,Cattaraugus,United Resources Corporation,07270,00,00,OD,Five Mile,NR,Bryer-Kinley 25,Allegany,Bradford,2,0.0,2.0,7.0,2012,"Allegany, NY
+(42.088061, -78.491258)"
+31009665970000,Cattaraugus,"Cramer, Carol A.",66597,00,00,OD,Chipmunk,AC,Sutter 28,Allegany,Chipmunk,0,0.0,0.0,0.0,2012,"Allegany, NY
+(42.088061, -78.491258)"
+31029189180000,Erie,"Eclipse Energy Company, LLC",18918,00,00,GD,North Collins,AC,Mammoser 7,North Collins,Medina,12,0.0,0.0,0.0,2012,"North Collins, NY
+(42.595159, -78.940951)"
+31009691000000,Cattaraugus,Hidden Heart Stables LLC,69100,00,00,OD,Four Mile,NR,Carls 10,Allegany,Bradford,0,0.0,0.0,0.0,2012,"Allegany, NY
+(42.088061, -78.491258)"
+31013245090000,Chautauqua,"Eclipse Energy Company, LLC",24509,00,00,GD,Lakeshore,AC,Morris #5,Villenova,Medina,12,1379.0,0.0,0.0,2012,"Villenova, NY
+(42.391743, -79.119456)"
+31009088780000,Cattaraugus,United Resources Corporation,08878,00,00,OD,Five Mile,NR,Bryer-Kinley 2,Allegany,Bradford,9,0.0,3.0,38.0,2012,"Allegany, NY
+(42.088061, -78.491258)"
+31009666000000,Cattaraugus,"Cramer, Carol A.",66600,00,00,OD,Chipmunk,IN,Sutter 31,Allegany,Chipmunk,0,0.0,0.0,0.0,2012,"Allegany, NY
+(42.088061, -78.491258)"
+31013245110000,Chautauqua,"Eclipse Energy Company, LLC",24511,00,00,GD,Lakeshore,AC,Bell 1,Mina,Medina,12,2628.0,100.0,0.0,2012,"Mina, NY
+(42.130114, -79.694407)"
+31013135430000,Chautauqua,"Southwell, R.C.",13543,00,00,OD,Busti,NR,Peereboom 12,Busti,Glade,0,0.0,0.0,0.0,2012,"Busti, NY
+(42.038067, -79.283549)"
+31013126840000,Chautauqua,Waffenbauch USA Corp.,12684,00,00,GD,Lakeshore,NR,Farver 1,Chautauqua,Medina,12,1293.0,0.0,0.0,2012,"Chautauqua, NY
+(42.251704, -79.501693)"
+31009673500000,Cattaraugus,M. J. McCaffery Oil Co.,67350,00,00,OD,Chipmunk,NR,Sue 44,Carrollton,Chipmunk,0,0.0,0.0,0.0,2012,"Carrollton, NY
+(42.023289, -78.628438)"
+31013150000000,Chautauqua,"Eclipse Energy Company, LLC",15000,00,00,GD,Lakeshore,IN,Lowe 3164,North Harmony,Medina,12,0.0,0.0,0.0,2012,"North Harmony, NY
+(42.094296, -79.374999)"
+31003608070000,Allegany,James V. Joyce/DBA Pipeline Co.,60807,00,00,GD,Andover,NR,Livermore 4,Andover,Penny,0,0.0,0.0,0.0,2012,"Andover, NY
+(42.156405, -77.795231)"
+31013255420000,Chautauqua,"Eclipse Energy Company, LLC",25542,00,00,GD,Lakeshore,AC,Ark 1,Sheridan,Medina,12,3718.0,205.0,0.0,2012,"Sheridan, NY
+(42.485764, -79.241801)"
+31051161980000,Livingston,"Heineman, Ronald",16198,00,00,GD,Uhley Corners-Caledonia,NR,Raymond 95,York,Medina,12,285.0,1.0,0.0,2012,"York, NY
+(42.871099, -77.885584)"
+31029241880000,Erie,"Eclipse Energy Company, LLC",24188,00,00,GD,Lakeshore,AC,Lopez 1,Concord,Medina,12,6047.0,0.0,0.0,2012,"Concord, NY
+(42.535259, -78.731387)"
+31003656990000,Allegany,Pine Oil Co.,65699,00,00,IW,Richburg,NR,Pine Oil 112,Genesee,Richburg,0,0.0,0.0,0.0,2012,"Genesee, NY
+(42.02693, -78.205893)"
+31029159570000,Erie,Socha Trust,15957,00,00,GD,Buffalo Creek,NR,Fee 1,Aurora,Medina,12,1.0,0.0,0.0,2012,"Aurora, NY
+(42.753982, -76.70241)"
+31029193420000,Erie,"Eclipse Energy Company, LLC",19342,00,00,GD,North Collins,AC,Rupp 2,North Collins,Medina,12,0.0,0.0,0.0,2012,"North Collins, NY
+(42.595159, -78.940951)"
+31013249840000,Chautauqua,"Eclipse Energy Company, LLC",24984,00,00,GD,Lakeshore,AC,Bell 2,Mina,Medina,12,1811.0,24.0,0.0,2012,"Mina, NY
+(42.130114, -79.694407)"
+31013176510000,Chautauqua,"Scott's Peek 'N Peak, LLC",17651,00,00,GD,Lakeshore,SI,Martin Unit 1,French Creek,Medina,4,632.0,0.0,0.0,2012,"French Creek, NY
+(42.053599, -79.703602)"
+31009646750000,Cattaraugus,"Kellner, Christian F.",64675,00,00,OD,Bradford,NR,Utter Purchase 43,Allegany,Bradford,3,0.0,0.0,1.0,2012,"Allegany, NY
+(42.088061, -78.491258)"
+31009691030000,Cattaraugus,Hidden Heart Stables LLC,69103,00,00,OD,Four Mile,NR,Carls 13,Allegany,Bradford,0,0.0,0.0,0.0,2012,"Allegany, NY
+(42.088061, -78.491258)"
+31003280190000,Allegany,"Allegany Energy, Inc.",28019,00,00,OD,Richburg,NR,Zlomek 2,Alma,Richburg,6,0.0,0.0,1035.0,2012,"Alma, NY
+(42.012207, -78.060759)"
+31009664120000,Cattaraugus,M. J. McCaffery Oil Co.,66412,00,00,OD,Chipmunk,NR,Hill 14,Carrollton,Chipmunk,1,0.0,5.0,5.0,2012,"Carrollton, NY
+(42.023289, -78.628438)"
+31003656640000,Allegany,Pine Oil Co.,65664,00,00,OD,Richburg,NR,Pine Oil 9,Genesee,Richburg,6,0.0,16.0,4.0,2012,"Genesee, NY
+(42.02693, -78.205893)"
+31029029600000,Erie,"Garman, Richard E.",02960,00,00,GD,East Aurora,NR,Souzzi Dan Old Clements E,Aurora,Medina,12,1.0,0.0,0.0,2012,"Aurora, NY
+(42.753982, -76.70241)"
+31009646800000,Cattaraugus,"Kellner, Christian F.",64680,00,00,OD,Bradford,NR,Utter Purchase 48,Allegany,Bradford,3,0.0,1.0,2.0,2012,"Allegany, NY
+(42.088061, -78.491258)"
+31009673500000,Cattaraugus,M. J. McCaffery Oil Co.,67350,00,00,OD,Chipmunk,NR,Sue 44,Carrollton,Chipmunk,0,0.0,0.0,0.0,2012,"Carrollton, NY
+(42.023289, -78.628438)"
+31003656770000,Allegany,Pine Oil Co.,65677,00,00,OD,Richburg,NR,Pine Oil 22,Genesee,Richburg,0,0.0,0.0,0.0,2012,"Genesee, NY
+(42.02693, -78.205893)"
+31003663270000,Allegany,Betsy Bug Ltd.,66327,00,00,OD,Richburg,AC,Bucher 5,Bolivar,Richburg,5,0.0,100.0,12.0,2012,"Bolivar, NY
+(42.066701, -78.167667)"
+31029190000000,Erie,"Eclipse Energy Company, LLC",19000,00,00,GD,North Collins,AC,Ptak 1,North Collins,Medina,12,0.0,0.0,0.0,2012,"North Collins, NY
+(42.595159, -78.940951)"
+31009664150000,Cattaraugus,M. J. McCaffery Oil Co.,66415,00,00,OD,Chipmunk,NR,Hill 17,Carrollton,Chipmunk,1,0.0,5.0,5.0,2012,"Carrollton, NY
+(42.023289, -78.628438)"
+31009646620000,Cattaraugus,"Kellner, Christian F.",64662,00,00,OD,Bradford,NR,Utter Purchase 30,Allegany,Bradford,3,0.0,1.0,1.0,2012,"Allegany, NY
+(42.088061, -78.491258)"
+31009212280000,Cattaraugus,Pioneer Central School District,21228,00,00,GD,Chaffee-Arcade,NR,Pioneer Cent.Sch.Dist.1,Yorkshire,Medina,12,5736.0,0.0,0.0,2012,"Yorkshire, NY
+(42.530173, -78.472591)"
+31013156010000,Chautauqua,"Eclipse Energy Company, LLC",15601,00,00,GD,Lakeshore,AC,Pagano Ee1,Sheridan,Medina,12,1922.0,0.0,0.0,2012,"Sheridan, NY
+(42.485764, -79.241801)"
+31009673490000,Cattaraugus,M. J. McCaffery Oil Co.,67349,00,00,OD,Chipmunk,NR,Sue 41,Carrollton,Chipmunk,0,0.0,0.0,0.0,2012,"Carrollton, NY
+(42.023289, -78.628438)"
+31009193620000,Cattaraugus,M. J. McCaffery Oil Co.,19362,00,00,OD,Chipmunk,NR,Hill Lease 4,Carrollton,Chipmunk,10,0.0,10.0,300.0,2012,"Carrollton, NY
+(42.023289, -78.628438)"
+31003656670000,Allegany,Pine Oil Co.,65667,00,00,OD,Richburg,NR,Pine Oil 12,Genesee,Richburg,6,0.0,16.0,4.0,2012,"Genesee, NY
+(42.02693, -78.205893)"
+31009669370000,Cattaraugus,"Campbell, Philip Brian",66937,00,00,OD,Bradford,PA,Dutka 7,Carrollton,Bradford,0,0.0,0.0,0.0,2012,"Carrollton, NY
+(42.023289, -78.628438)"
+31003657210000,Allegany,Pine Oil Co.,65721,00,00,IW,Richburg,NR,Pine Oil 134,Genesee,Richburg,0,0.0,0.0,0.0,2012,"Genesee, NY
+(42.02693, -78.205893)"
+31009646720000,Cattaraugus,"Kellner, Christian F.",64672,00,00,OD,Bradford,NR,Utter Purchase 40,Allegany,Bradford,3,0.0,1.0,1.0,2012,"Allegany, NY
+(42.088061, -78.491258)"
+31003608110000,Allegany,James V. Joyce/DBA Pipeline Co.,60811,00,00,GD,Andover,NR,Livermore 8,Andover,Penny,0,0.0,0.0,0.0,2012,"Andover, NY
+(42.156405, -77.795231)"
+31003560740000,Allegany,"Smith, Daniel E. Jr.",56074,00,00,OD,Clarksville,NR,Smith 008,Clarksville,Richburg,0,0.0,0.0,0.0,2012,"Clarksville, NY
+(42.575802, -73.964401)"
+31029148220000,Erie,"Petch, Arthur & Susan",14822,00,00,GD,Lakeview,NR,Layton Charles 1,Evans,Medina,0,0.0,0.0,0.0,2012,"Evans, NY
+(42.638457, -79.027689)"
+31013176140000,Chautauqua,"Wallace, Scott",17614,00,00,GD,Lakeshore,NR,"Wallace, M 1",French Creek,Medina,12,1.0,0.0,0.0,2012,"French Creek, NY
+(42.053599, -79.703602)"

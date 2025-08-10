@@ -1,0 +1,98 @@
+# Column contract for "oil-and-gas-annual-production-beginning-2001-1.csv"
+# Used by the ETL to standardize names, preserve codes, and cast types safely.
+
+source_file: "oil-and-gas-annual-production-beginning-2001-1.csv"
+raw_table: "ANNUAL_PRODUCTION"      # target table in RAW schema
+delimiter: ","                      # detected by profiler
+
+rename_map:
+  "API Well Number": "api_well_number"
+  "County": "county"
+  "Company Name": "company_name"
+  "API Hole Number": "api_hole_number"
+  "Sidetrack Code": "sidetrack_code"
+  "Completion Code": "completion_code"
+  "Well Type Code": "well_type_code"
+  "Production Field": "production_field"
+  "Well Status Code": "well_status_code"
+  "Well Name": "well_name"
+  "Town": "town"
+  "Producing Formation": "producing_formation"
+  "Months in Production": "months_in_production"
+  "Gas Produced, Mcf": "gas_produced_mcf"
+  "Water Produced, bbl": "water_produced_bbl"
+  "Oil Produced, bbl": "oil_produced_bbl"
+  "Reporting Year": "reporting_year"
+  "New Georeferenced Column": "new_georeferenced_column"
+
+# Treat these as strings to preserve leading zeros/codes and avoid float formatting issues
+string_columns:
+  - api_well_number
+  - api_hole_number
+  - sidetrack_code
+  - completion_code
+  - well_type_code
+  - well_status_code
+  - company_name
+  - county
+  - town
+  - production_field
+  - producing_formation
+  - well_name
+  - new_georeferenced_column
+
+# Cast to numeric where it makes sense (nullable)
+# Keep integers strictly integral; metrics as floats.
+integer_columns:
+  - months_in_production
+  - reporting_year
+
+numeric_columns:
+  - gas_produced_mcf
+  - water_produced_bbl
+  - oil_produced_bbl
+
+# Normalize string columns
+normalize:
+  strip_whitespace: true
+  uppercase:
+    - well_status_code
+    - well_type_code
+
+# Normalize these literal values to null
+na_like_values:
+  - "NaN"
+  - "nan"
+  - ""
+  - "Not Applicable"
+  - "UNK"
+  - "Unknown"
+
+# Candidate primary key (grain guess): well-year
+pk_candidate:
+  - api_well_number
+  - reporting_year
+
+# Validations for RAW: do NOT fail on duplicates; just warn.
+validations:
+  enforce_unique_in_raw: false
+  non_null:
+    - api_well_number
+    - reporting_year
+  non_negative_numeric:
+    - months_in_production
+    - gas_produced_mcf
+    - water_produced_bbl
+    - oil_produced_bbl
+  allowed_sets:
+    # Not enforced by the loader; will be enforced later in dbt if desired.
+    well_status_code:
+      - AC   # Active
+      - IN   # Inactive
+      - NR   # Never reported / similar
+      - PA   # Plugged & Abandoned
+      - VP   # Voided Permit
+    well_type_code:
+      - GD
+      - OD
+      - NL
