@@ -6,8 +6,6 @@ config-version: 2
 profile: "oil_gas_profile"
 
 # Put artifacts under /dbt
-target-path: "dbt/target"
-log-path: "dbt/logs"
 clean-targets: ["dbt/target", "dbt/logs"]
 
 # Paths are relative to THIS file

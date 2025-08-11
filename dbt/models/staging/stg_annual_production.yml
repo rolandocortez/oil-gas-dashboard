@@ -12,14 +12,18 @@ models:
           - not_null
 
       - name: reporting_year
-        description: "Reporting year."
+        description: "Reporting year. Must not be in the future."
         tests:
           - not_null
+          - non_future_year:
+              severity: error
 
       - name: months_in_production
         description: "Months in production (0..12 typically)."
         tests:
-          - non_negative:
+          - between_inclusive:
+              min_value: 0
+              max_value: 12
               severity: warn
 
       - name: gas_produced_mcf
@@ -27,17 +31,26 @@ models:
         tests:
           - non_negative:
               severity: warn
+          - max_null_proportion:
+              max_prop: 0.6
+              severity: warn
 
       - name: water_produced_bbl
         description: "Water produced (bbl)."
         tests:
           - non_negative:
               severity: warn
+          - max_null_proportion:
+              max_prop: 0.6
+              severity: warn
 
       - name: oil_produced_bbl
         description: "Oil produced (bbl)."
         tests:
           - non_negative:
+              severity: warn
+          - max_null_proportion:
+              max_prop: 0.6
               severity: warn
 
       - name: well_status_code
