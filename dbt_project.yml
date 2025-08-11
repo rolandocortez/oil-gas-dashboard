@@ -1,0 +1,24 @@
+# dbt_project.yml (repo root)
+name: "oil_gas_dashboard"
+version: "1.0.0"
+config-version: 2
+
+profile: "oil_gas_profile"
+
+# Put artifacts under /dbt
+target-path: "dbt/target"
+log-path: "dbt/logs"
+clean-targets: ["dbt/target", "dbt/logs"]
+
+# Paths are relative to THIS file
+model-paths: ["dbt/models"]
+test-paths: ["dbt/tests"]
+macro-paths: ["dbt/macros"]
+
+models:
+  oil_gas_dashboard:
+    +materialized: view
+    staging:
+      +schema: STAGING
+    marts:
+      +schema: MARTS

@@ -37,3 +37,14 @@ data/raw/*.csv
 
 # Allow small samples for tests
 !data/raw/*_sample*.csv
+
+# Ignore dbt artifacts
+logs/
+target/
+dbt/logs/
+dbt/target/
+dbt_packages/
+dbt_modules/
+dbt.log
+dbt/user.yml
+logs/

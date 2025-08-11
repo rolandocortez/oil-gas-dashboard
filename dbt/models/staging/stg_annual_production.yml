@@ -1,0 +1,57 @@
+version: 2
+
+models:
+  - name: stg_annual_production
+    description: >
+      Staging view of RAW.ANNUAL_PRODUCTION. Types are normalized and codes are trimmed/uppercased.
+      Duplicates at (api_well_number, reporting_year) are allowed in staging (handled later in marts).
+    columns:
+      - name: api_well_number
+        description: "API well identifier."
+        tests:
+          - not_null
+
+      - name: reporting_year
+        description: "Reporting year."
+        tests:
+          - not_null
+
+      - name: months_in_production
+        description: "Months in production (0..12 typically)."
+        tests:
+          - non_negative:
+              severity: warn
+
+      - name: gas_produced_mcf
+        description: "Gas produced (Mcf)."
+        tests:
+          - non_negative:
+              severity: warn
+
+      - name: water_produced_bbl
+        description: "Water produced (bbl)."
+        tests:
+          - non_negative:
+              severity: warn
+
+      - name: oil_produced_bbl
+        description: "Oil produced (bbl)."
+        tests:
+          - non_negative:
+              severity: warn
+
+      - name: well_status_code
+        description: "Well status code."
+        tests:
+          - accepted_values:
+              values: ["AC","IN","NR","PA","VP"]
+              quote: true
+              severity: warn
+
+      - name: well_type_code
+        description: "Well type code."
+        tests:
+          - accepted_values:
+              values: ["GD","OD","NL"]
+              quote: true
+              severity: warn
