@@ -1,0 +1,9 @@
+version: 2
+
+sources:
+  - name: raw
+    database: "{{ env_var('SNOWFLAKE_DATABASE') }}"
+    schema: RAW
+    tables:
+      - name: ANNUAL_PRODUCTION
+        description: "Raw annual production CSV loaded via write_pandas."
