@@ -1,0 +1,39 @@
+version: 2
+
+models:
+  - name: int_annual_production_dedup
+    description: >
+      Intermediate view that deduplicates well-year rows and aggregates measures.
+      Representative attributes are taken from the row with the highest months_in_production.
+    columns:
+      - name: api_well_number
+        description: "API well identifier."
+        tests:
+          - not_null
+
+      - name: reporting_year
+        description: "Reporting year."
+        tests:
+          - not_null
+
+      - name: months_in_production
+        description: "Capped to 12 after aggregation."
+        tests:
+          - between_inclusive:
+              min_value: 0
+              max_value: 12
+
+      - name: oil_produced_bbl
+        description: "Aggregated oil (bbl) per well-year."
+        tests:
+          - non_negative
+
+      - name: gas_produced_mcf
+        description: "Aggregated gas (Mcf) per well-year."
+        tests:
+          - non_negative
+
+      - name: water_produced_bbl
+        description: "Aggregated water (bbl) per well-year."
+        tests:
+          - non_negative

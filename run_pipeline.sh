@@ -3,7 +3,7 @@ set -euo pipefail
 
 LOG_TS(){ echo "[$(date -Iseconds)] $*"; }
 
-# Cargar variables si hay .env (ignora si no existe)
+# Load variables
 if [ -f ".env" ]; then
   # shellcheck disable=SC2046
   export $(grep -v '^#' .env | xargs -d '\n' -r) || true
