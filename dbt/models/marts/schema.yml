@@ -37,3 +37,33 @@ models:
         description: "Aggregated water (bbl) per well-year."
         tests:
           - non_negative
+
+  - name: dim_year
+    description: >
+      Year dimension derived from years present in INT. Provides convenience flags
+      for current year, last 5 years, and decade bucketing.
+    columns:
+      - name: year_sk
+        description: "Surrogate/business key for the year (same as reporting_year)."
+        tests:
+          - not_null
+          - unique
+
+      - name: year
+        description: "Alias of year_sk for readability."
+        tests:
+          - not_null
+
+      - name: is_current_year
+        description: "True if equals current_date() year in Snowflake."
+
+      - name: is_last_5_years
+        description: "True if within the last 5 years relative to current_date()."
+
+      - name: decade_start
+        description: "Start of the decade (e.g., 2010)."
+        tests:
+          - not_null
+
+      - name: decade_label
+        description: "Text label for decade (e.g., '2010s')."
