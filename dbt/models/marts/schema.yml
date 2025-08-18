@@ -67,3 +67,62 @@ models:
 
       - name: decade_label
         description: "Text label for decade (e.g., '2010s')."
+
+  - name: dim_well
+    description: >
+      One row per well. Representative attributes are selected via ranking
+      (months_in_production desc, measures sum desc, reporting_year desc).
+      Lifetime measures are totals across all years in INT.
+    columns:
+      - name: well_sk
+        description: "Deterministic surrogate key (md5 hex) of api_well_number."
+        tests:
+          - not_null
+          - unique
+
+      - name: api_well_number
+        description: "API well identifier (business key)."
+        tests:
+          - not_null
+          - unique
+
+      - name: first_year
+        description: "First reporting year observed for the well."
+        tests:
+          - not_null
+
+      - name: last_year
+        description: "Last reporting year observed for the well."
+        tests:
+          - not_null
+
+      - name: lifetime_oil_bbl
+        description: "Total oil produced (bbl) across all years."
+        tests:
+          - non_negative
+
+      - name: lifetime_gas_mcf
+        description: "Total gas produced (Mcf) across all years."
+        tests:
+          - non_negative
+
+      - name: lifetime_water_bbl
+        description: "Total water produced (bbl) across all years."
+        tests:
+          - non_negative
+
+      - name: well_status_code
+        description: "Well status code."
+        tests:
+          - relationships:
+              to: ref('refdata_well_status_codes')
+              field: status_code
+              severity: warn
+
+      - name: well_type_code
+        description: "Well type code."
+        tests:
+          - relationships:
+              to: ref('refdata_well_type_codes')
+              field: type_code
+              severity: warn

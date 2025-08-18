@@ -1,4 +1,4 @@
-{{--
+/*
   Model: dim_year
   Layer: MARTS (DIM)
   Grain: one row per reporting year present in INT
@@ -7,7 +7,7 @@
   Notes:
   - year_sk doubles as the business key (reporting_year).
   - Flags are handy for BI filters (current year / recent years / decade).
---}}
+*/
 
 {{ config(materialized='table') }}
 

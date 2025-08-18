@@ -12,6 +12,7 @@ clean-targets: ["dbt/target", "dbt/logs"]
 model-paths: ["dbt/models"]
 test-paths: ["dbt/tests"]
 macro-paths: ["dbt/macros"]
+seed-paths: ["dbt/seeds"]
 
 models:
   oil_gas_dashboard:
@@ -20,3 +21,8 @@ models:
       +schema: STAGING
     marts:
       +schema: MARTS
+
+seeds:
+  +schema: MARTS
+  oil_gas_dashboard:
+    +quote_columns: false

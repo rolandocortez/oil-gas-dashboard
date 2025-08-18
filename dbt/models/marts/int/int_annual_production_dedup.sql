@@ -1,4 +1,4 @@
-{{--
+/*
   Model: int_annual_production_dedup
   Layer: MARTS (INT)
   Grain: (api_well_number, reporting_year)
@@ -7,10 +7,10 @@
     - Aggregate measures by well-year:
         * SUM(oil_produced_bbl, gas_produced_mcf, water_produced_bbl) with COALESCE(0)
         * MAX(months_in_production), then cap to 12
-    - Carry representative attributes from the row with the highest months_in_production
-      (ties broken by higher (oil+gas+water) and non-null attributes)
-    - Keep a helper field: records_aggregated
---}}
+    - Representative attributes from row with highest months_in_production
+      (tie-break by higher (oil+gas+water) and non-null attributes)
+    - Keep helper field: records_aggregated
+*/
 
 {{ config(materialized='view') }}
 
