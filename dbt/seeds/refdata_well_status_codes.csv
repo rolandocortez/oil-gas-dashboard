@@ -1,0 +1,23 @@
+status_code,status_desc
+AC,Active
+IN,Inactive
+NR,Not Reported
+PA,Plugged & Abandoned
+VP,Voided Permit
+UNK,Unknown / Not Applicable
+SI,Unmapped code SI (from source)
+EX,Unmapped code EX (from source)
+PM,Unmapped code PM (from source)
+UL,Unmapped code UL (from source)
+TA,Unmapped code TA (from source)
+UN,Unmapped code UN (from source)
+CA,Unmapped code CA (from source)
+UM,Unmapped code UM (from source)
+CO,Unmapped code CO (from source)
+PB,Unmapped code PB (from source)
+DD,Unmapped code DD (from source)
+TR,Unmapped code TR (from source)
+DC,Unmapped code DC (from source)
+RE,Unmapped code RE (from source)
+DG,Unmapped code DG (from source)
+PI,Unmapped code PI (from source)

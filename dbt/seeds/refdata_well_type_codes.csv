@@ -1,0 +1,19 @@
+type_code,type_desc
+GD,Gas Development (generic)
+OD,Oil Development (generic)
+NL,Not Listed / Null
+UNK,Unknown / Other
+IW,Unmapped code IW (from source)
+GW,Unmapped code GW (from source)
+GE,Unmapped code GE (from source)
+DW,Unmapped code DW (from source)
+OW,Unmapped code OW (from source)
+DH,Unmapped code DH (from source)
+MS,Unmapped code MS (from source)
+SG,Unmapped code SG (from source)
+ST,Unmapped code ST (from source)
+MM,Unmapped code MM (from source)
+TH,Unmapped code TH (from source)
+BR,Unmapped code BR (from source)
+OE,Unmapped code OE (from source)
+DS,Unmapped code DS (from source)
