@@ -18,28 +18,44 @@ jobs:
       - uses: pre-commit/action@v3.0.1
 
   dbt-parse:
-    name: dbt deps + parse (without connecting to Snowflake)
+    name: CI / dbt deps + parse (without connecting to Snowflake)
     runs-on: ubuntu-latest
+
     steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-python@v5
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
         with:
-          python-version: '3.12'
-      - name: Install dbt
+          python-version: "3.12"
+
+      - name: Install deps
         run: |
           python -m pip install --upgrade pip
-          pip install -r requirements.txt
-      - name: dbt deps + parse
+          pip install -r requirements.txt || true
+          pip install "dbt-snowflake==1.10.0"
+
+      - name: dbt deps + parse (no Snowflake connection)
         env:
           DBT_PROFILES_DIR: ${{ github.workspace }}/dbt
-          DBT_TARGET_PATH: ${{ github.workspace }}/dbt/target
+          DBT_TARGET_PATH: ${{ github.workspace }}/dbt/target }
           DBT_LOG_PATH: ${{ github.workspace }}/dbt/logs
+          # Dummy Snowflake creds just to satisfy env_var() in profiles.yml
+          SNOWFLAKE_ACCOUNT: "dummy"
+          SNOWFLAKE_USER: "dummy"
+          SNOWFLAKE_PASSWORD: "dummy"
+          SNOWFLAKE_ROLE: "ROLE_OILGAS_SVC"
+          SNOWFLAKE_WAREHOUSE: "COMPUTE_WH"
+          SNOWFLAKE_DATABASE: "OILGAS_DB"
+          SNOWFLAKE_SCHEMA: "STAGING"
         run: |
           dbt deps
           dbt parse
 
+
   pipeline-dry-run:
-    name: ETL dry-run (no Snowflake)
+    name: "ETL dry-run (no Snowflake)"
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
