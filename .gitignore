@@ -48,3 +48,4 @@ dbt_modules/
 dbt.log
 dbt/user.yml
 logs/
+docs/forecast/predictions.csv

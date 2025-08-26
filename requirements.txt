@@ -19,3 +19,4 @@ prophet>=1.1
 
 
 tabulate
+statsmodels
